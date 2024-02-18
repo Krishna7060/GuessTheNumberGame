@@ -1,0 +1,65 @@
+*{margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.container{
+  font-size: 2rem;
+  margin-left: 32%;
+  margin-top: 20px;
+
+}
+.gidelines{
+  margin-top: 20px;
+  padding: 10px;
+  color: salmon;
+}
+
+#guessField{
+  width: 300px;
+  height: 60px;
+  /* background-color: pink; */
+  font-size: 2rem;
+  border-radius: 10px;
+  border: transparent 5px ;
+  margin-top: 20px;
+
+}
+
+#subt{
+  height: 50px;
+  width: 150px;
+  font-size: 2.3rem;
+  background-color: green;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: transparent 5px solid;
+}
+
+.resultdiv{
+  margin-top:25px;
+  padding: 20px;
+
+}
+
+.button{
+  border:solid salmon 4px;
+  height: 60px;
+  width: 200px;
+  font-size: 2.5rem;
+  background-color: brown;
+
+}
+
+#newGame{
+  font-size: 1.5rem;
+  color: indigo;
+  
+
+}
