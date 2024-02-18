@@ -47,10 +47,10 @@ const p = document.createElement('p');
    
      function checkGuess(guess){
       if(guess===randomNumber){
-         displayMessage(`you won the game`)
+         displayMessage(`your won the game`)
          endGame()
       } else if(guess<randomNumber){
-         displayMessage(`you number is too low`)
+         displayMessage(`your number is too low`)
       } else if(guess>randomNumber){
          displayMessage(`your number is too high`)
       }
